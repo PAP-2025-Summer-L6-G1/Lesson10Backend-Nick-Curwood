@@ -18,7 +18,7 @@ const port = process.env.PORT || 3002;
 app.use(
     cors({
         // EXERCISE 4.7
-        origin: "https://localhost:3000",
+        origin: ["https://localhost:3000", "https://lesson10-frontend-nick-curwood.netlify.app/"],
         credentials: true,
     })
 );
